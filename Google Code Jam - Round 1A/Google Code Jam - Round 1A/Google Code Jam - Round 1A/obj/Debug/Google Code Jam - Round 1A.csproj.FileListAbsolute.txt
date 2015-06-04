@@ -1,0 +1,9 @@
+E:\My Documents\Google Drive\Coding\Google Code Jam\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\bin\Debug\Google Code Jam - Round 1A.exe.config
+E:\My Documents\Google Drive\Coding\Google Code Jam\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\bin\Debug\Google Code Jam - Round 1A.exe
+E:\My Documents\Google Drive\Coding\Google Code Jam\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\bin\Debug\Google Code Jam - Round 1A.pdb
+E:\My Documents\Google Drive\Coding\Google Code Jam\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\obj\Debug\Google Code Jam - Round 1A.csprojResolveAssemblyReference.cache
+E:\My Documents\Google Drive\Coding\Google Code Jam\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\obj\Debug\Google Code Jam - Round 1A.exe
+E:\My Documents\Google Drive\Coding\Google Code Jam\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\obj\Debug\Google Code Jam - Round 1A.pdb
+E:\My Documents\Google Drive\Coding\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\bin\Debug\Google Code Jam - Round 1A.exe.config
+E:\My Documents\Google Drive\Coding\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\obj\Debug\Google Code Jam - Round 1A.exe
+E:\My Documents\Google Drive\Coding\Google Code Jam - Round 1A\Google Code Jam - Round 1A\Google Code Jam - Round 1A\obj\Debug\Google Code Jam - Round 1A.pdb
