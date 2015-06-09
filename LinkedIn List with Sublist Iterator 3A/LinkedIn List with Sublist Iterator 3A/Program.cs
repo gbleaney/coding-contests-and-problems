@@ -46,15 +46,8 @@ namespace LinkedIn_List_with_Sublist_Iterator_3A
         {
             currentEnumerator = collection.GetEnumerator();
             currentEnumerator.MoveNext(); // Get to the first valid element
-            currentData = currentEnumerator.Current;
 
-
-            if (currentData.IsCollection)
-            {
-                curreDataIterator = new DataIterator<T>(currentData.Collection);
-            }
-
-            currentEnumeratorHasNext = currentEnumerator.MoveNext();
+            MoveNext();
         }
 
         private void MoveNext()
