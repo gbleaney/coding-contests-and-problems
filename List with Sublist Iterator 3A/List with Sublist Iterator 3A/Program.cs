@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LinkedIn_List_with_Sublist_Iterator_3A
+namespace List_with_Sublist_Iterator_3A
 {
     class Data<T>
     {
