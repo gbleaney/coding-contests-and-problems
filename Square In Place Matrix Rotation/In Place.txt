@@ -1,0 +1,78 @@
+using System;
+
+// To execute C#, please define "static void Main" on a class
+// named Solution.
+
+// Rotate an nxn matrix by 90 degrees clockwise in place
+// 1 2 3      7 4 1
+// 4 5 6  =>  8 5 2
+// 7 8 9      9 6 3
+  
+//1  2
+//    
+//4  3
+
+
+class Solution
+{
+    static void Main(string[] args)
+    {
+        int [][] matrix =  {new int [] {1,2,3},new int [] {4,5,6},new int [] {7,8,9}};
+        InPlaceRotate(matrix, 0);
+        foreach(var row in matrix) {
+            foreach(var num in row) {
+                Console.Write(num + ", ");
+            }
+            Console.WriteLine("");
+        }
+        
+        matrix = new int [][] {new int [] {1, 2, 3, 4},
+                               new int [] {5, 6, 7, 8},
+                               new int [] {9, 10, 11, 12},
+                               new int [] {13, 14, 15, 16}, };
+        
+        InPlaceRotate(matrix, 0);
+        foreach(var row in matrix) {
+            foreach(var num in row) {
+                Console.Write(num + ", ");
+            }
+            Console.WriteLine("");
+        }
+        
+        
+    }
+    
+    static void InPlaceRotate(int [][] matrix, int startingSquare) {
+        int sideLength = matrix.Length - 2*startingSquare;
+        
+        if(sideLength == 1) {
+            return;
+        }
+        
+        int x1 = startingSquare,                  y1 = startingSquare;
+        int x2 = startingSquare + sideLength - 1, y2 = startingSquare;
+        int x3 = startingSquare + sideLength - 1, y3 = startingSquare + sideLength - 1;
+        int x4 = startingSquare,                  y4 = startingSquare + sideLength - 1;
+        
+        // point = (starting square, startingSquare)
+        for(int i = 0; i < sideLength - 1; i++) {
+            int temp = matrix[y1][x1];
+            
+            matrix[y1][x1] = matrix[y4][x4];
+            matrix[y4][x4] = matrix[y3][x3];
+            matrix[y3][x3] = matrix[y2][x2];
+            matrix[y2][x2] = temp;
+            
+            x1++;
+            y2++;
+            x3--;
+            y4--;
+        }
+            
+            
+        startingSquare++;
+        if(startingSquare < matrix.Length/2) {
+            InPlaceRotate(matrix, startingSquare);
+        }
+    }
+}
